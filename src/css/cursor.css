@@ -1,0 +1,51 @@
+csr {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  text-shadow: -1px 1px, 1px 1px, 1px 1px;
+  letter-spacing: 2px;
+  font-weight: 900;
+  vertical-align: middle;
+  margin-left: -8px;
+  padding-right: 0px;
+  -webkit-animation: underBlink 1s infinite;
+      -moz-animation: underBlink 1s infinite;
+        -o-animation: underBlink 1s infinite;
+          animation: underBlink 1s infinite;
+}
+
+@-webkit-keyframes underBlink {
+  /* 0%   { border-right: 2px solid rgba(0, 0, 0, .2); } */
+  /* 100% { border-right: 2px solid rgba(0, 0, 0, .5); } */
+  0%{     color: #FFF;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #FFF;    }
+}
+@-moz-keyframes underBlink {
+  /* 0%   { border-right: 2px solid rgba(0, 0, 0, .2); } */
+  /* 100% { border-right: 2px solid rgba(0, 0, 0, .5); } */
+  0%{     color: #FFF;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #FFF;    }
+}
+@-o-keyframes underBlink {
+  /* 0%   { border-right: 2px solid rgba(0, 0, 0, .2); } */
+  /* 100% { border-right: 2px solid rgba(0, 0, 0, .5); } */
+  0%{     color: #FFF;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #FFF;    }
+}
+@keyframes underBlink {
+  /* 0%   { border-right: 2px solid rgba(0, 0, 0, .2); } */
+  /* 100% { border-right: 2px solid rgba(0, 0, 0, .5); } */
+  0%{     color: #FFF;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #FFF;    }
+}
